@@ -5,27 +5,122 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bojan2111@github.io</title>
-  <link href="style.css" type="text/stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <header id="header">
-    <div id="header-logo-title">
-      <img id="header-logo" src="logo.png" alt="ABMT leters with big C around it">
-      <p id="header-title">ABMT code</p>
+    <div class="section">
+      <nav class="navbar">
+        <div class="container navbar-items">
+          <a href="#"><img class="logo-image" src="abmt_code_simplistic_logo.png" alt="logo image"></a>
+          <div class="nav-menu">
+            <a href="#" class="link-box-a">
+              <div class="link-box">Home</div>
+            </a>
+            <a href="#" class="link-box-a">
+              <div class="link-box">About</div>
+            </a>
+            <a href="#" class="link-box-a">
+              <div class="link-box">Contact</div>
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
-    <nav id="navbar">
-      <ul>
-        <li><a class="navbar-link">Home</a></li>
-        <li><a class="navbar-link">About</a></li>
-        <li><a class="navbar-link">Something</a></li>
-        <li><a class="navbar-link">Contact</a></li>
-      </ul>
-    </nav>
   </header>
   <main>
-    <section id="hero" class="hero">Main content</section>
+    <section id="hero" class="section hero">
+      <div class="container">
+        <div class="super-heading">Welcome!</div>
+        <h1 class="heading">This is the title</h1>
+      </div>
+      <img class="hero-image" src="Hero-background.jpg" alt="hero image">
+    </section>
+    <section class="section projects">
+      <div class="container">
+        <h2 class="heading secondary-heading">Selected projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum ipsum repellat amet ullam fuga et mollitia vero, reprehenderit autem optio ea ab voluptates placeat odio, assumenda dolor magnam perferendis.</p>
+        <div class="collection-wrapper">
+          <div class="collection-item">
+            <div class="collection-data">
+              <div>
+                <div class="super-heading">Project Type</div>
+                <h3 class="secondary-heading">Project Title</h3>
+                <p class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut veritatis tenetur illum nemo in dicta quidem? Laudantium, a nulla. Aliquam quis rem sequi, molestias cumque possimus fugit incidunt fugiat?</p>
+              </div>
+              <div>
+                <p class="item-link">View project</p>
+              </div>
+            </div>
+            <img class="item-image" src="Sunset.jpg" alt="Project image">
+          </div>
+          <div class="collection-item">
+            <div class="collection-data">
+              <div>
+                <div class="super-heading">Project Type</div>
+                <h3 class="secondary-heading">Project Title</h3>
+                <p class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut veritatis tenetur illum nemo in dicta quidem? Laudantium, a nulla. Aliquam quis rem sequi, molestias cumque possimus fugit incidunt fugiat?</p>
+              </div>
+              <div>
+                <p class="item-link">View project</p>
+              </div>
+            </div>
+            <img class="item-image" src="Blue-rock.jpg" alt="Project image">
+          </div>
+          <div class="collection-item">
+            <div class="collection-data">
+              <div>
+                <div class="super-heading">Project Type</div>
+                <h3 class="secondary-heading">Project Title</h3>
+                <p class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut veritatis tenetur illum nemo in dicta quidem? Laudantium, a nulla. Aliquam quis rem sequi, molestias cumque possimus fugit incidunt fugiat?</p>
+              </div>
+              <div>
+                <p class="item-link">View project</p>
+              </div>
+            </div>
+            <img class="item-image" src="Cloud.jpg" alt="Project image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container">
+        <form class="email-form">
+          <div class="form-group">
+            <div class="form-item-container">
+              <label for="name" class="form-label"></label>
+              <input id="name" type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-item-container">
+              <label for="email" class="form-label"></label>
+              <input id="email" type="email" name="email" placeholder="Enter your email">
+            </div>
+          </div>
+          <label for="message" class="form-label"></label>
+          <textarea class="message" name="message"></textarea>
+          <input type="submit" name="submit" id="submit" title="Submit">
+        </form>
+        <div class="success-message">Your form has been submitted</div>
+        <div class="error-message">Oops, something went wrong!</div>
+      </div>
+    </section>
   </main>
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <div class="container footer-holder">
+      <img src="abmt_code_simplistic_logo.png" alt="logo image" class="logo-image">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam odio suscipit molestias quo deserunt dolor, sed enim facere velit, alias exercitationem non sunt, soluta ab voluptate reprehenderit nemo? Tenetur, sapiente.</p>
+      <div class="footer-projects-container">
+        <a href="#" class="footer-project-link"><div class="project-title">Project Title</div></a>
+        <a href="#" class="footer-project-link"><div class="project-title">Project Title</div></a>
+        <a href="#" class="footer-project-link"><div class="project-title">Project Title</div></a>
+      </div>
+      <div class="social-container">
+        <a href="#" target="_blank"><img src="Twitter.svg" alt="Tweeter"></a>
+        <a href="#" target="_blank"><img src="Instagram.svg" alt="Instagram"></a>
+        <a href="#" target="_blank"><img src="LinkedIn.svg" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </footer>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,168 @@
+:root {
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+}
+
+.navbar {
+  background-color: #333;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-image {
+  max-height: 80px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.link-box-a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-box {
+  height: 50px;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.hero {
+
+}
+
+.super-heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.heading {
+  font-size: 38px;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+.projects {
+
+}
+
+.secondary-heading {
+  font-size: 32px;
+}
+
+.collection-wrapper {
+  margin: 60px 0;
+}
+
+.collection-item {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  margin-bottom: 30px;
+}
+
+.collection-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: darkmagenta;
+  padding: 20px;
+}
+
+.item-description {
+
+}
+
+.item-link {
+  align-items: flex-end;
+}
+
+.item-image {
+  max-width: 100%;
+}
+
+.contact-form {
+
+}
+
+.email-form {
+
+}
+
+.form-group {
+
+}
+
+.form-item-container {
+
+}
+
+.form-label {
+
+}
+
+.message {
+
+}
+
+.success-message {
+
+}
+
+.error-message {
+
+}
+
+footer {
+  background-color: paleturquoise;
+  color: black;
+}
+
+.footer-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.footer-projects-container {
+
+}
+
+.footer-project-link {
+
+}
+
+.project-title {
+
+}
+
+.social-container {
+
+}
