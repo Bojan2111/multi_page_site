@@ -75,7 +75,7 @@
                 <p class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut veritatis tenetur illum nemo in dicta quidem? Laudantium, a nulla. Aliquam quis rem sequi, molestias cumque possimus fugit incidunt fugiat?</p>
               </div>
               <div>
-                <p class="item-link">View project</p>
+                <p class="item-link"><a href="#">View project</a></p>
               </div>
             </div>
             <img class="item-image" src="Cloud.jpg" alt="Project image">
@@ -88,17 +88,19 @@
         <form class="email-form">
           <div class="form-group">
             <div class="form-item-container">
-              <label for="name" class="form-label"></label>
-              <input id="name" type="text" name="name" placeholder="Enter your name">
+              <label for="name" class="form-label">Name</label>
+              <input class="grid-input" id="name" type="text" name="name" placeholder="Enter your name">
             </div>
             <div class="form-item-container">
-              <label for="email" class="form-label"></label>
-              <input id="email" type="email" name="email" placeholder="Enter your email">
+              <label for="email" class="form-label">Email</label>
+              <input class="grid-input" id="email" type="email" name="email" placeholder="Enter your email">
             </div>
           </div>
-          <label for="message" class="form-label"></label>
-          <textarea class="message" name="message"></textarea>
-          <input type="submit" name="submit" id="submit" title="Submit">
+          <div class="form-item-container message-container">
+            <label for="message" class="form-label message-label">Message</label>
+            <textarea class="message" name="message"></textarea>
+          </div>
+          <input class="button submit" type="submit" name="submit" id="submit" title="Submit">
         </form>
         <div class="success-message">Your form has been submitted</div>
         <div class="error-message">Oops, something went wrong!</div>
